@@ -1,7 +1,7 @@
 import mysql.connector
 
 class conndb:
-    def _init_(self):
+    def __init__(self):
         pass
 
     def queryResult(self,strsql):
