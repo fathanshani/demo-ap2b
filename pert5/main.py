@@ -68,7 +68,7 @@ def update_partial(id):
 
 @app.route('/')
 def home():
-    return "Hello peeps!"
+    return "Selamat Datang di Shopedia!"
 
 if __name__ == '__main__':
   app.run(debug=True)

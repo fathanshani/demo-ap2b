@@ -1,0 +1,17 @@
+payload = [{
+  'nama': 'Fathan Shani',
+  'npm': 50421488,
+  'userId': 1
+  },
+  {
+  'nama': 'Aji Murad',
+  'npm': 50420999,
+  'userId': 2
+  }]
+
+addPost = requests.post("https://httpbin.org/post", json=payload)
+
+if (addPost.status_code == 200 or addPost.status_code == 201):
+  print('Mencoba melakukan Post Request')
+  print('Status Code: ', addPost.status_code)
+  print('Payload: ', addPost.text)

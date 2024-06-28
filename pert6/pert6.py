@@ -10,7 +10,7 @@ def main():
     # Create the main window
     window = QWidget()
     window.setGeometry(400, 200, 400, 300)
-    window.setWindowTitle("Pertemuan 6 - 51421514")
+    window.setWindowTitle("Pertemuan 6 - 50421488")
 
     # Set the layout
     layout = QVBoxLayout()
